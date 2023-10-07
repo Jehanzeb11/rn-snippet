@@ -12,7 +12,7 @@ image.forEach((file) => {
   });
 });
   let res = await fetch(
-    `${baseUrl}/fame/saveImage`,
+   "url",
     {
       method: 'POST',
       body: formData,
